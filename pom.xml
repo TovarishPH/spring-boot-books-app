@@ -27,6 +27,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.synchronoss.cloud/nio-multipart-parser -->
+		<dependency>
+		    <groupId>org.synchronoss.cloud</groupId>
+		    <artifactId>nio-multipart-parser</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
